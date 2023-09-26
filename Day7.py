@@ -71,3 +71,14 @@ for user_input in user_inputs:
     print(key_value_dict[user_input])
   else:
     print("Key not found")
+
+
+message=input(">")
+words=message.split(" ")
+emojis={
+    ":)":"😀", ":(": "😔", ":D":"😁 ",":O":"😲",":')":"😂"
+}
+output=""
+for word in words:
+    output+=emojis.get(word,word) + " "
+print(output)
