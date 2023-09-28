@@ -13,3 +13,4 @@ print(result)
 Calculate the square root of 5, and print the result rounded to 4 decimal places.'''
 x = 5
 print(f"{x ** 0.5:.4f}")
+
