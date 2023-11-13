@@ -5,6 +5,7 @@ thisdict = {
   "year": 1964
 }
 prices = {'apple': 0.40, 'banana': 0.50}
+
 my_purchase = {'apple': 1, 'banana': 6}
 grocery_bill = sum(prices[fruit] * my_purchase[fruit]
                    for fruit in my_purchase)
@@ -31,6 +32,9 @@ x3 = thisdict.items()
 print(x3)
 
 
+person = {"name": "Alice", "age": 30}
+print("Name:", person["name"])
+print("Age:", person["age"])
 
 
 
