@@ -8,3 +8,4 @@ def print_diamond(rows):
 
 rows = int(input("Enter the number of rows for the diamond: "))
 print_diamond(rows)
+
