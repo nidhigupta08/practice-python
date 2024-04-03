@@ -1,11 +1,9 @@
-def calculate_area(length, width):
-    area = length * width
-    return area
+def print_rectangle(width, height):
+    for i in range(height):
+        for j in range(width):
+            print("*", end=" ")
+        print()
 
-# Input length and width from the user
-length = float(input("Enter the length of the rectangle: "))
-width = float(input("Enter the width of the rectangle: "))
-
-# Calculate and display the area
-area = calculate_area(length, width)
-print(f"The area of the rectangle is: {area}")
+width = 8  # Width of the rectangle
+height = 5  # Height of the rectangle
+print_rectangle(width, height)
